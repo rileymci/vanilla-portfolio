@@ -75,19 +75,39 @@ header ul li a
 }
 
 .container{
+    padding-top: 1px;
     text-align: center;
-    border: #fff;
-    border-style: dotted;
     color: #fff;
     height: 100vh;
+}
+
+.innercontainer{
+    margin: 200px 100px 500px 100px;
+    padding-bottom: 200px;
+    border-style: dotted;
 }
 
 .container h1{
     font-family: 'Teko', sans-serif;
     font-size: 4em;
     margin:auto;
-    line-height: 500px;
-    transition: 2s;
+    transition: 1.5s;
+    border-style: double;
+}
+
+.buttons{
+    font-family: 'Teko', sans-serif;
+    margin: 0 50px 0 50px;
+    border-style: double;
+    padding-top: 20px;
+    
+}
+.buttons button{
+    border-radius: 20px;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 10px;
+    
 }
 
 header.sticky .logo, 
