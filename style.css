@@ -31,8 +31,9 @@ header.sticky
     border-bottom-style: solid;
     border-bottom-color: #f8f8f8;
     border-width: 2px;
-    background-color: #000000bd;
+    
     background-color: #054a7cc7;
+    background-color: #00000091;
 }
 
 header .logo
@@ -122,7 +123,7 @@ header ul li a
     line-height: 20px;
     vertical-align: middle;
     text-align: center;
-    background-color: #054a7c;
+    background-color: #054a7cdb;
     color: #FFFFFF;
     box-sizing: border-box;
     white-space: nowrap;
@@ -130,6 +131,10 @@ header ul li a
     margin-right: 12px;
     margin-left: 12px;
     width: 200px;
+    
 }
 
+.about{
+    background-color: #095f9d;
+}
 
