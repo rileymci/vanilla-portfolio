@@ -147,3 +147,9 @@ header ul li a
     height: 100vh;
 }
 
+@media only screen and (max-width: 600px) {
+    .about {
+      background-color: lightblue;
+    }
+  }
+
