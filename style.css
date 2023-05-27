@@ -193,6 +193,9 @@ header ul li a
       width: 100px;
       font-size: small;
       background-color: #054a7cfd;
+      border-color: #095f9d;
+      background-color: #095f9d;
+      border-color: #054a7cfd;
     }
   }
 
