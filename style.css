@@ -115,6 +115,14 @@ header ul li a
     text-shadow: -6px 2px 6px rgb(0, 0, 0);
 }
 
+@media only screen and (max-width: 600px) {
+    .container h1 {
+      font-size: 2em;
+    }
+  }
+
+
+
 .buttons{
     font-family: 'Teko', sans-serif;
     padding-top: 60px;
