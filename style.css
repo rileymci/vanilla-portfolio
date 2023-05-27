@@ -142,6 +142,14 @@ header ul li a
     
 }
 
+@media only screen and (max-width: 600px) {
+    .buttons button {
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+  }
+
+
 .about{
     background-color: #ffffff;
     height: 100vh;
