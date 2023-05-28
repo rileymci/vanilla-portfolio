@@ -6,6 +6,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
 }
 
 body{
@@ -44,6 +45,7 @@ header.sticky
     background-color: #054a7cc7;
     background-color: #00000091;
 }
+
 
 @media only screen and (max-width: 600px) {
     header.sticky {
@@ -241,9 +243,45 @@ header ul li a
     height: 100vh;
 }
 
+.about h2{
+    text-align: left;
+    margin-top: 70px;
+    text-decoration: none;
+    font-weight: 200;
+    font-size: 36px;
+    color: #424242;
+    width: 45%;
+    margin-left: 50px;
+}
+
+.column-2{
+    float: left;
+    width: 45%;
+    height: 475px;
+    line-height:2;
+    margin-left: 50px;
+}
+
+.portrait img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: #d3d2d2;
+    border-width: 6px;
+    width: 400px;
+    height: 400px;
+
+  }
+
 @media only screen and (max-width: 600px) {
     .about {
       background-color: lightblue;
     }
   }
 
+
+footer{
+    text-align: center;
+}
