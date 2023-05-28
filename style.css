@@ -216,6 +216,14 @@ header ul li a
 }
 
 @media only screen and (max-width: 600px) {
+    .githubicon, .downloadicon {
+        height: 15px;
+        width: 15px;
+        left: 0.25em;
+    }
+  }
+
+@media only screen and (max-width: 600px) {
     .buttons button {
       padding: 8px;
       width: 100px;
